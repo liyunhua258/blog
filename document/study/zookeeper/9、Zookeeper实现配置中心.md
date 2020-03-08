@@ -1,9 +1,9 @@
 ### 一、Zookeeper实现配置中心原理和操作
-<img src="D:\doc\blog\images\study\zookeeper\1572775072261.png" alt="1572775072261" style="zoom:50%;" />
-<img src="D:\doc\blog\images\study\zookeeper\1572775093939.png" alt="1572775093939" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572775072261.png" alt="1572775072261" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572775093939.png" alt="1572775093939" style="zoom:50%;" />
 
-<img src="D:\doc\blog\images\study\zookeeper\1572775104542.png" alt="1572775104542" style="zoom:50%;" />
-<img src="D:\doc\blog\images\study\zookeeper\1572775114040.png" alt="1572775114040" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572775104542.png" alt="1572775104542" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572775114040.png" alt="1572775114040" style="zoom:50%;" />
 
 
 ### 二、POM配置文件

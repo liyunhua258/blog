@@ -1,28 +1,28 @@
 ### 一、分布式队列应用场景
 **解耦**
-<img src="D:\doc\blog\images\study\zookeeper\1572774815859.png" alt="1572774815859" style="zoom: 50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774815859.png" alt="1572774815859" style="zoom: 50%;" />
 
 **异步**
-![1572774845905](D:\doc\blog\images\study\zookeeper\1572774845905.png)
+![1572774845905](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774845905.png)
 
 **削峰填谷**
-![1572774856591](D:\doc\blog\images\study\zookeeper\1572774856591.png)
+![1572774856591](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774856591.png)
 
 ### 二、分布式队列实现逻辑
 **先进先出**
-![1572774868639](D:\doc\blog\images\study\zookeeper\1572774868639.png)
+![1572774868639](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774868639.png)
 
 **顺序节点**
-<img src="D:\doc\blog\images\study\zookeeper\1572774884346.png" alt="1572774884346" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774884346.png" alt="1572774884346" style="zoom:50%;" />
 
 **入队逻辑**
-<img src="D:\doc\blog\images\study\zookeeper\1572774923286.png" alt="1572774923286" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774923286.png" alt="1572774923286" style="zoom:50%;" />
 
 **出队逻辑**
-<img src="D:\doc\blog\images\study\zookeeper\1572774944539.png" alt="1572774944539" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774944539.png" alt="1572774944539" style="zoom:50%;" />
 
 **队列总体实现逻辑流程图**
-<img src="D:\doc\blog\images\study\zookeeper\1572774957371.png" alt="1572774957371" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774957371.png" alt="1572774957371" style="zoom:50%;" />
 
 ### 三、JDK阻塞队列操作
 

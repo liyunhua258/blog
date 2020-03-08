@@ -1,13 +1,13 @@
 ### 一、应用程序集群
-<img src="D:\doc\blog\images\study\zookeeper\1572774687515.png" alt="1572774687515" style="zoom: 50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774687515.png" alt="1572774687515" style="zoom: 50%;" />
 
 ### 二、ZAB协议介绍
 ZAB协议（ZooKeeper Atomic Broadcast, ZooKeeper原子消息广播协议）是专为zookeeper设计的数据一致性协议。参考Paxos来实现的。
-![1572774725232](D:\doc\blog\images\study\zookeeper\1572774725232.png)
+![1572774725232](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774725232.png)
 关注点数据的一致性，无关数据的准确性、权威性、实时性
 
 ### 三、ZAB协议的重要特性-有序性
-![1572774742898](D:\doc\blog\images\study\zookeeper\1572774742898.png)
+![1572774742898](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774742898.png)
 
 1.    所有事务请求转发给leader
 2.    Leader分配全局单调递增事务，id(Zxid)广播事务提议
@@ -17,7 +17,7 @@ ZAB协议（ZooKeeper Atomic Broadcast, ZooKeeper原子消息广播协议）是�
 
 ### 四、ZK集群-群龙无首
 Leader服务器出现崩溃，或者说由于网络原因导致Leader服务器失去了与过半Follower的联系，那么就会进入崩溃恢复模式。
-![1572774759496](D:\doc\blog\images\study\zookeeper\1572774759496.png)
+![1572774759496](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774759496.png)
 
 - ZAB协议规定如果一个事务Proposal在一台机器上被处理成功，那么应该在所有的机器上都被处理成功,哪怕机器出现故障崩溃。
 - ZAB协议**确保**那些已经在Leader服务器上提交的事务最终被所有服务器都提交

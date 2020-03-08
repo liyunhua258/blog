@@ -1,7 +1,7 @@
 ### 一、ZooKeeper 实现Master选举原理
-![1572775205805](D:\doc\blog\images\study\zookeeper\1572775205805.png)
+![1572775205805](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572775205805.png)
 
-![1572775222787](D:\doc\blog\images\study\zookeeper\1572775222787.png)
+![1572775222787](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572775222787.png)
 
 ### 二、实现代码
 #### 一、POM配置文件

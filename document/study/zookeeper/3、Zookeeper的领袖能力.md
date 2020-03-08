@@ -1,7 +1,7 @@
 ### 领袖核心能力
 
 #### 一. Zookeeper会话机制
-<img src="D:\doc\blog\images\study\zookeeper\1572773876720.png" alt="1572773876720" style="zoom:50%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572773876720.png" alt="1572773876720" style="zoom:50%;" />
 
 * 一个客户端连接一个会话，由zk分配唯一会话id；
 * 客户端以特定的时间间隔发送心跳以保持会话有效； tickTime

@@ -37,16 +37,16 @@ echo ruok | nc 127.0.0.1:2181
 #### 方式二：JMX
 JMX (Java Management Extensions) Java管理扩展，是一个
 为应用程序、设备、系统等植入管理功能的框架。
-<img src="D:\doc\blog\images\study\zookeeper\1572774453842.png" alt="1572774453842" style="zoom:80%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774453842.png" alt="1572774453842" style="zoom:80%;" />
 
 **打开步骤:**
-![1572774484609](D:\doc\blog\images\study\zookeeper\1572774484609.png)
-![1572774496410](D:\doc\blog\images\study\zookeeper\1572774496410.png)
-![1572774511724](D:\doc\blog\images\study\zookeeper\1572774511724.png)
+![1572774484609](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774484609.png)
+![1572774496410](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774496410.png)
+![1572774511724](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774511724.png)
 
 ### 三、集群的灵魂-Leader
 #### (一)、每台服务器都可以成为Leader
-![1572774525514](D:\doc\blog\images\study\zookeeper\1572774525514.png)
+![1572774525514](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774525514.png)
 
 #### (二)、分布式一致性算法：Paxos算法
 ##### 定义
@@ -65,21 +65,21 @@ Paxos算法类似于两阶段提提交，其算法执行过程分为两个阶段
 (b) 如果Acceptor收到一个针对编号为N的提案的Accept请求，只要该Acceptor没有对编号大于N的Prepare请求做出过响应，它就接受该提案。如果N小于Acceptor以及响应的prepare请求，则拒绝，不回应或回复error（当proposer没有收到过半的回应，那么他会重新进入第一阶段，递增提案号，重新提出prepare请求）。
 
 ##### Paxos角色
-<img src="D:\doc\blog\images\study\zookeeper\1572774540843.png" alt="1572774540843" style="zoom:80%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774540843.png" alt="1572774540843" style="zoom:80%;" />
 
 ##### Paxos流程
-![1572774557638](D:\doc\blog\images\study\zookeeper\1572774557638.png)
+![1572774557638](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774557638.png)
 
-![1572774568823](D:\doc\blog\images\study\zookeeper\1572774568823.png)
+![1572774568823](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774568823.png)
 
-![1572774582449](D:\doc\blog\images\study\zookeeper\1572774582449.png)
+![1572774582449](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774582449.png)
 
-![1572774598387](D:\doc\blog\images\study\zookeeper\1572774598387.png)
+![1572774598387](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774598387.png)
 
-![1572774613515](D:\doc\blog\images\study\zookeeper\1572774613515.png)
+![1572774613515](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774613515.png)
 
 #### (三)、ZooKeeper集群 Leader 选举
-![1572774625389](D:\doc\blog\images\study\zookeeper\1572774625389.png)
+![1572774625389](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774625389.png)
 
 **对选举Leader的要求**
 - 对选举Leader节点上要持有最高的zxid

@@ -1,10 +1,10 @@
 ### 一、Zookeeper实现分布式锁方式一
 
-![1572774240857](D:\doc\blog\images\study\zookeeper\1572774240857.png)
+![1572774240857](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774240857.png)
 原理：节点不可重名+watch
 缺点：惊群效应
 
-<img src="D:\doc\blog\images\study\zookeeper\1572774251791.png" alt="1572774251791" style="zoom: 80%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774251791.png" alt="1572774251791" style="zoom: 80%;" />
 
 - 项目pom文件
 ```xml
@@ -195,10 +195,10 @@ public static void main(String[] args) {
 
 
 ### Zookeeper实现分布锁方式二
-<img src="D:\doc\blog\images\study\zookeeper\1572774316071.png" alt="1572774316071" style="zoom:80%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774316071.png" alt="1572774316071" style="zoom:80%;" />
 原理：取号+最小号得+Watch
 
-<img src="D:\doc\blog\images\study\zookeeper\1572774332747.png" alt="1572774332747" style="zoom: 80%;" />
+<img src="https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/zookeeper/1572774332747.png" alt="1572774332747" style="zoom: 80%;" />
 
 - POM文件同上
 - 分布式实现类二
