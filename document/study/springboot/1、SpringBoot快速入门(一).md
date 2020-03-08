@@ -39,7 +39,7 @@ Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用�
 *   5、如果使用的是 Eclipse，Import -> Existing Maven Projects -> Next -> 选择解压后的文件夹 -> Finsh，OK done!
 
 ### 2、Idea 构建项目
-![1572762886138](D:\doc\blog\images\study\springboot\1572762886138.png)
+![1572762886138](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762886138.png)
 *   1、选择 File -> New —> Project… 弹出新建项目的框
 *   2、选择 Spring Initializr，Next 也会出现上述类似的配置界面，Idea 帮我们做了集成
 *   3、填写相关内容后，点击 Next 选择依赖的包再点击 Next，最后确定信息无误点击 Finish。
@@ -122,11 +122,11 @@ public class HelloWorldController {
 ### 5、约定俗成规则
 - [ ] 1、Bean扫描的目录范围为启动类所在包
 - [ ] 2、配置参数通过classpath下的application.properties或application.yuml来配置
-- [x] ![1572753905106](D:\doc\blog\images\study\springboot\1572753905106.png)
+- [x] ![1572753905106](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572753905106.png)
 
 * 3、web开发静态资源语文件可放在classpath下的static、public、resource、META-INF/resouces目录，访问的url对应它们之下的目录结构。四个目录的搜索次序：/META-INF/resources>resources>static>public
 * 4、web开发采用页面模板技术时，模板文件放在classpath:/templates/目录下
-[![1572754112101](D:\doc\blog\images\study\springboot\1572754112101.png)
+[![1572754112101](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572754112101.png)
 
 ### 6、如何做单元测试
 

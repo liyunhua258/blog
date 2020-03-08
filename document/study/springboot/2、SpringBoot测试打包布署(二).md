@@ -228,7 +228,7 @@ mvn clean package  -Dmaven.test.skip=true
 ```
 
 会在 target 目录下生成：项目名+版本号.war文件，拷贝到 tomcat 服务器中启动即可。
-![1572754608330](D:\doc\blog\images\study\springboot\1572754608330.png)
+![1572754608330](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572754608330.png)
 
 **gradle**
 

@@ -249,14 +249,14 @@ mvn clean install
 
 * 7)、测试调用情况
 测试application的参数是否可用，如下图，能正常显示。还具备自动提示功能，因为引入了spring-boot-configuration-processor自动json元信息功能。
-![1572762675657](D:\doc\blog\images\study\springboot\1572762675657.png)
-![1572762690061](D:\doc\blog\images\study\springboot\1572762690061.png)
-![1572762704468](D:\doc\blog\images\study\springboot\1572762704468.png)
-![1572762722155](D:\doc\blog\images\study\springboot\1572762722155.png)
+![1572762675657](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762675657.png)
+![1572762690061](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762690061.png)
+![1572762704468](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762704468.png)
+![1572762722155](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762722155.png)
 
 测试调用情况是否正确，创建测试类SpbCommonStarterTest，测试通过，能正常调用
 
-![1572762735246](D:\doc\blog\images\study\springboot\1572762735246.png)
+![1572762735246](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762735246.png)
 ![1572762745787](D:\doc\blog\images\study\springboot\1572762745787.png)
 
 [示例代码|chap03|github](https://github.com/liyunhua258/Study/tree/master/springboot2-chap03)
