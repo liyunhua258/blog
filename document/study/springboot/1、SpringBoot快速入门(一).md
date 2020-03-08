@@ -126,7 +126,7 @@ public class HelloWorldController {
 
 * 3、web开发静态资源语文件可放在classpath下的static、public、resource、META-INF/resouces目录，访问的url对应它们之下的目录结构。四个目录的搜索次序：/META-INF/resources>resources>static>public
 * 4、web开发采用页面模板技术时，模板文件放在classpath:/templates/目录下
-[![1572754112101](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572754112101.png)
+![1572754112101](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572754112101.png)
 
 ### 6、如何做单元测试
 
