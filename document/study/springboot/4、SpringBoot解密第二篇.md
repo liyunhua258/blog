@@ -257,7 +257,11 @@ mvn clean install
 测试调用情况是否正确，创建测试类SpbCommonStarterTest，测试通过，能正常调用
 
 ![1572762735246](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762735246.png)
-![1572762745787](D:\doc\blog\images\study\springboot\1572762745787.png)
+![1572762745787](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572762745787.png)
+
+[示例代码|chap03|gitee](https://gitee.com/liyunhua/Study/tree/master/springboot2-chap03)
+[示例代码|spb-common-springboot-starter|gitee](https://gitee.com/liyunhua/Study/tree/master/spb-common-springboot-starter)
+[示例代码|spb-common|gitee](https://gitee.com/liyunhua/Study/tree/master/spb-common)
 
 [示例代码|chap03|github](https://github.com/liyunhua258/Study/tree/master/springboot2-chap03)
 [示例代码|spb-common-springboot-starter|github](https://github.com/liyunhua258/Study/tree/master/spb-common-springboot-starter)

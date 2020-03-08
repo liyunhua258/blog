@@ -10,7 +10,7 @@
 
 ### ConfigFileApplicationListener
 SpringBoot项目，通过ConfigFileApplicationListener类，完成对参数配置文件的加载。
-![1572763252364](D:\doc\blog\images\study\springboot\1572763252364.png)
+![1572763252364](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572763252364.png)
 
 ### 指定spring.config.name、spring.config.location属性值的三种方式：
 > 操作系统环境变量：spring.config.name=xxxx 
@@ -38,4 +38,4 @@ classpath:/default.properties,classpath:/override.properties
 >优先級高于spring.config. location
 
 ### 除了可在参数配置文件中配置外，还有其他方式配置参数吗?
-![1572763269072](D:\doc\blog\images\study\springboot\1572763269072.png)
+![1572763269072](https://liyunhua.oss-cn-hangzhou.aliyuncs.com/blog/images/study/springboot/1572763269072.png)

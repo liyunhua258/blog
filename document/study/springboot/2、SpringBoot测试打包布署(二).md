@@ -356,4 +356,5 @@ service yourapp start|stop|restart
 
 到此 Spring Boot 项目如何测试、联调和打包投产均已经介绍完，以后可以找时间研究一下 Spring Boot 的自动化运维，以及 Spring Boot 和 Docker 相结合的使用。
 
+[示例代码-gitee](https://gitee.com/liyunhua/Study/tree/master/springboot2-chap02)
 [示例代码-github](https://github.com/liyunhua258/Study/tree/master/springboot2-chap02)
